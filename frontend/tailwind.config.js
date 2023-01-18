@@ -6,7 +6,15 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'gramatika-bold': ['Gramatika-Bold'],
+        'gramatika-black': ['Gramatika-Black'],
+        'gramatika-light': ['Gramatika-Light'],
+        'gramatika-regular': ['Gramatika-Regular'],
+        'gramatika-mdeium': ['Gramatika-Medium'],
+      }
+    },
   },
   plugins: [],
 }
