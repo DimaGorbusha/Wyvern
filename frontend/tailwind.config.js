@@ -21,7 +21,8 @@ module.exports = {
         light_gray: '#B4B4B4',
         bg: '#F8F8F8',
         main: '#0D4FDC',
-        hov: '#2365F1'
+        hov: '#2365F1',
+        inactive: '#ACACAC',
       }
     },
   },
