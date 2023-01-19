@@ -13,6 +13,15 @@ module.exports = {
         'gramatika-light': ['Gramatika-Light'],
         'gramatika-regular': ['Gramatika-Regular'],
         'gramatika-mdeium': ['Gramatika-Medium'],
+      },
+      colors:{
+        custom_black: '#35302F',
+        dark_gray: '#494443',
+        gray: '#8F8F8F',
+        light_gray: '#B4B4B4',
+        bg: '#F8F8F8',
+        main: '#0D4FDC',
+        hov: '#2365F1'
       }
     },
   },
