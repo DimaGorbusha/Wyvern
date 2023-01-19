@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import axios, { AxiosResponse } from 'axios';
+import axios from 'axios';
+import Head from 'next/head'
 import Link from 'next/link';
 import Image from 'next/image'
-import left_bg from '../../public/img/sign-in/left-bg.png'
-import logo from '../../public/logo.svg'
-import config from '../../config.js'
+import left_bg from 'public/img/sign-in/left-bg.png'
+import logo from 'public/logo.svg'
+import config from 'config.js'
 
 type Props = {}
 
@@ -51,6 +52,10 @@ export default function index({}: Props) {
 
   return (
     <div className='flex bg-bg'>
+      <Head>
+        <title>Вход - Wyvern</title>
+        <link rel="icon" href="/favicon.ico"/>
+      </Head>
       <Image className='w-[549px] h-[822px]'
         src={left_bg}
         alt=""
