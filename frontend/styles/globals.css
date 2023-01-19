@@ -1,3 +1,149 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Gramatika-Bold';
+    src: local('Gramatika-Bold'), url(../public/fonts/gramatika_bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gramatika-Black';
+    src: local('Gramatika-Black'), url(../public/fonts/gramatika_black.ttf);
+}
+
+@font-face {
+    font-family: 'Gramatika-Regular';
+    src: local('Gramatika-Regular'), url(../public/fonts/gramatika_regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gramatika-Light';
+    src: local('Gramatika-Light'), url(../public/fonts/gramatika_light.ttf);
+}
+
+@font-face {
+    font-family: 'Gramatika-Medium';
+    src: local('Gramatika-Medium'), url(../public/fonts/gramatika_medium.ttf);
+}
+
+@layer components {
+    .heading1 {
+        font-family: 'Gramatika-Bold';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 120%;
+        color: #35302F;
+    }
+
+    .heading2 {
+        font-family: 'Gramatika-Medium';
+        font-size: 36px;
+        line-height: 110%;
+        color: #35302F;
+    }
+
+    .heading3 {
+        font-family: 'Gramatika-Bold';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 110%;
+        color: #35302F;
+    }
+
+    .heading4 {
+        font-family: 'Gramatika-Medium';
+        font-size: 24px;
+        line-height: 120%;
+        color: #35302F;
+    }
+
+    .heading5 {
+        font-family: 'Gramatika-Medium';
+        font-size: 22px;
+        line-height: 110%;
+        color: #35302F;
+    }
+
+    .text1 {
+        font-family: 'Gramatika-Medium';
+        font-size: 18px;
+        line-height: 110%;
+        color: #35302F;
+    }
+
+    .text2 {
+        font-family: 'Gramatika-Medium';
+        font-size: 16px;
+        line-height: 120%;
+        color: #35302F;
+    }
+
+    .text3 {
+        font-family: 'Gramatika-Medium';
+        font-size: 14px;
+        line-height: 150%;
+        color: #35302F;
+    }
+
+    .text4 {
+        font-family: 'Gramatika-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #35302F;
+    }
+
+    .tag1 {
+        font-family: 'Gramatika-Bold';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+        color: #35302F;
+    }
+
+    .tag2 {
+        font-family: 'Gramatika-Bold';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        color: #35302F;
+    }
+
+    .tag3 {
+        font-family: 'Gramatika-Bold';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;
+        color: #35302F;
+    }
+
+    .tag4 {
+        font-family: 'Gramatika-Bold';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;
+        color: #35302F;
+    }
+
+    .btn1 {
+        font-family: 'Gramatika-Medium';
+        font-size: 18px;
+        line-height: 120%;
+        color: #35302F;
+    }
+
+    .btn2 {
+        font-family: 'Gramatika-Medium';
+        font-size: 16px;
+        line-height: 150%;
+        color: #35302F;
+    }
+}
