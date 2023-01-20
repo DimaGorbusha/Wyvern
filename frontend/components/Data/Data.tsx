@@ -7,7 +7,7 @@ type Props = {}
 export default function Data({}: Props) {
   return (
     <div>
-        <Card cardTitle='Электричество' cardDate='22.00-27.9999' cardImg={electricity} cardButton="[eq"/>
+        <Card cardTitle='Электричество' cardDate='22.00-27.9999' cardImg={electricity} cardButton="Дать показания"/>
     </div>
   )
 }
