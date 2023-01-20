@@ -23,6 +23,8 @@ module.exports = {
         main: '#0D4FDC',
         hov: '#2365F1',
         inactive: '#ACACAC',
+        light_orange: '#FB6B63',
+        black: '#35302F'
       }
     },
   },
