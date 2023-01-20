@@ -146,4 +146,14 @@
         line-height: 150%;
         color: #35302F;
     }
+    
+    .links_hover:hover {
+        color: #35302F;
+        transition: ease-in;
+        transition-delay: 10ms;
+    }
+
+    .left_transition:hover {
+        transform: scale(1.2);
+    }
 }
