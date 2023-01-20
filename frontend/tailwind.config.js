@@ -24,7 +24,8 @@ module.exports = {
         hov: '#2365F1',
         inactive: '#ACACAC',
         light_orange: '#FB6B63',
-        black: '#35302F'
+        black: '#35302F',
+        orange: '#F87239'
       }
     },
   },
