@@ -1,17 +1,11 @@
 import React from 'react'
-import LeftMenu from 'components/LeftMenu'
-import Head from 'next/head'
+import BasicLayout from 'components/Common/BasicLayout'
+import Data from 'components/Data/Data'
 
-type Props = {}
-
-export default function index({}: Props) {
+export default function index({}) {
   return (
-    <div>
-        <Head>
-            <title>Показания - Wyvern</title>
-            <link rel="icon" href="/favicon.ico"/>
-        </Head>
-        <LeftMenu/>
+    <div className='flex'>
+      <BasicLayout title="Показания - Wyvern" address="164523, обл. Архангельская, г Северодвинск, пр-кт Ленина, д. 50, кв. 24" heading="Показания" subheading='Показания за месяц' children={<Data/>}/>
     </div>
   )
 }
