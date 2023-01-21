@@ -10,7 +10,7 @@ type Props = {
   children: ReactNode
 }
 
-export default function BasicLayout({title, address, heading, subheading, children}: Props) {
+export default function MainPageLayout({title, address, heading, subheading, children}: Props) {
   return (
     <div className='flex'>
         <Head>
