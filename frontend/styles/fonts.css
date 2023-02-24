@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Gramatika-Regular';
+    src: url('../fonts/gramatika_regular.ttf') format('ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gramatika-Bold';
+    src: url('../fonts/gramatika_bold.ttf') format('ttf');
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Gramatika-Black';
+    src: url('../fonts/gramatika_black.ttf') format('ttf');
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Gramatika-Medium';
+    src: url('../fonts/gramatika_medium.ttf') format('ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gramatika-Light';
+    src: url('../fonts/gramatika_light.ttf') format('ttf');
+    font-style: normal;
+}
