@@ -19,7 +19,14 @@ module.exports = {
         'gray': '#8F8F8F',
         'lightGray': '#B4B4B4',
         'bg': '#F8F8F8',
-      }
+      },
+      fontFamily:{
+        gramatikaBold: ['Gramatika-Bold'],
+        gramatikaRegular: ['Gramatika-Regular'],
+        gramatikaBlack: ['Gramatika-Black'],
+        gramatikaMedium: ['Gramatika-Medium'],
+        gramatikaLight: ['Gramatika-Light'],
+      },
     },
   },
   plugins: [],
