@@ -1,5 +1,5 @@
 import Props from './LoginLayout.props';
-import LoginImage from '../../assets/Login/loginImg.svg';    
+import LoginImage from '@/assets/Login/loginImg.svg';    
 
 const LoginLayout: React.FC<Props> = ({ children, className = '', ...props}) => {
     return(
