@@ -1,17 +1,17 @@
 import Props from './LoginLayout.props';
-import Logo from '../../components/common/Logo';
 import LoginImage from '../../assets/Login/loginImg.svg';    
 
 const LoginLayout: React.FC<Props> = ({ children, className = '', ...props}) => {
     return(
-        <section className={className + ' grid grid-cols-2'} {...props}>
-            <div className='pl-28 pt-16'>
-                <Logo />
+        <section className={className + ' flex'} {...props}>
+            <div>
+                <LoginImage className='w-[549px] h-[810px]' />
+            </div>
+            <div>
                 <div>
-                    {children}
+                    { children }
                 </div>
             </div>
-            <LoginImage className='h-screen' />
         </section>
     );
 
